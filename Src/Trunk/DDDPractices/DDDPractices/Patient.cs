@@ -25,6 +25,7 @@ namespace DDDPractices
 
             var nameChangedEvent = new NameChangedEvent(firstName, lastName);
             AddDomainEvent(nameChangedEvent);
+            
 
 
         }
